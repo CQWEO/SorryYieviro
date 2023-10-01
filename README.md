@@ -1,4 +1,4 @@
-task.wait(1.5)
+task.wait()
 --[[]]
 local YOUHUB = {};
 YOUHUB["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
@@ -29,7 +29,7 @@ YOUHUB["6"]["TextScaled"] = true;
 YOUHUB["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 YOUHUB["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/Ubuntu.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 YOUHUB["6"]["TextSize"] = 14;
-YOUHUB["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+YOUHUB["6"]["TextColor3"] = Color3.new(1,9,9);
 YOUHUB["6"]["Size"] = UDim2.new(0, 216, 0, 63);
 YOUHUB["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 YOUHUB["6"]["Text"] = [[MR YIEVIRO LOADING...]];
